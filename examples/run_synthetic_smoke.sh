@@ -1,0 +1,1 @@
+python -m tafdg.cli   --dataset synthetic   --rounds 2   --num-clients 6   --clients-per-round 0.5   --local-epochs 1   --batch-size 8   --model tinycnn   --image-size 32   --num-classes 4   --num-domains 4   --synthetic-samples-per-class 8   --output-dir outputs/synthetic_smoke
